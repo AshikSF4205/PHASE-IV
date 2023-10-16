@@ -1,4 +1,4 @@
-AshikVarghese_QwickFoodz_PhaseIVAssessment/QwickFoodz/QwickFoodz.sln
-AshikVarghese_QwickFoodz_PhaseIVAssessment/QwickFoodz/bin
-AshikVarghese_QwickFoodz_PhaseIVAssessment/QwickFoodz/obj
-AshikVarghese_QwickFoodz_PhaseIVAssessment/QwickFoodz/.vscode
+.vscode/
+obj/
+bin/
+*.sln
