@@ -399,19 +399,19 @@ namespace QwickFoodz
         public static void CancelOrder()
         {
          
-                foreach (FoodDetails food in foodDetailsList)
-                {
-                    foreach (ItemDetails item in localItemList)
-                    {
+                // foreach (FoodDetails food in foodDetailsList)
+                // {
+                //     foreach (ItemDetails item in localItemList)
+                //     {
 
-                        if (food.FoodID.Equals(item.FoodID))
-                        {
-                            food.QuantityAvailable += item.PurchaseCount;
-                        }
-                    }
-                }
+                //         if (food.FoodID.Equals(item.FoodID))
+                //         {
+                //             food.QuantityAvailable += item.PurchaseCount;
+                //         }
+                //     }
+                // }
 
-                currentlyLoggedInCustomer.WalletRecharge(totalPrice);
+                // currentlyLoggedInCustomer.WalletRecharge(totalPrice);
             
         }
 
